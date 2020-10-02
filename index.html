@@ -1,47 +1,79 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>The RGB Game</title>
-	<link rel="stylesheet" type="text/css" href="styles.css">
-	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
-	<link href='https://fonts.googleapis.com/css?family=Gugi' rel='stylesheet'>
-	<link href='https://fonts.googleapis.com/css?family=Harmattan' rel='stylesheet'>
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
-	<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
-	<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
-	<link rel="manifest" href="site.webmanifest">
-</head>
-<body>
-	<h1>Choose<br> <span id="write"></span><br> from below</h1>
-	<div id="btn">
-		<button id="new">New Colors</button>
-		<span id="over"></span>
-		<button id="easy">Easy</button>
-		<button id="hard">Hard</button>
-	</div>
-	<div class="container">
-		<div class="square"></div>
-        	<div class="square"></div>
-        	<div class="square"></div>
-        	<div class="square"></div>
-        	<div class="square"></div>
-        	<div class="square"></div>
-        	<div class="square"></div>
-        	<div class="square"></div>
-        	<div class="square"></div>
-	</div>
-	<script type="text/javascript" src="script.js"></script>
-	
-<footer>
-    <p id="copyright">2020 &copy; Sabyasachi Banerjee</p>
-    <ul class="list-inline">
-	<li class="list-inline-item footer-social"><a href="https://www.linkedin.com/in/sabyasachi-banerjee-009591192/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
-        <li class="list-inline-item footer-social"><a href="https://github.com/Sabyasachi123618" target="_blank"><i class="fab fa-github"></i></a></li>
-        <li class="list-inline-item footer-social"><a href="https://www.instagram.com/sabyasachimessi/" target="_blank"><i class="fab fa-instagram"></i></a></li>
-    </ul>
-</footer>
+  <head>
+    <title>The RGB Game</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Gugi"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Harmattan"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"
+      integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP"
+      crossorigin="anonymous"
+    />
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png" />
+    <link rel="manifest" href="site.webmanifest" />
+    <link rel="stylesheet" type="text/css" href="styling.css" />
+  </head>
+  <body>
+    <h1>
+      Choose<br />
+      <span id="colorDisplay">RGB</span><br />
+      from below
+    </h1>
 
-	
-</body>
+    <div id="stripe">
+      <button id="reset">New Colors</button>
+      <span id="message"></span>
+      <button id="easyBtn">Easy</button>
+      <button id="mediumBtn">Medium</button>
+      <button class="selected" id="hardBtn">Hard</button>
+    </div>
+
+    <div id="container">
+      <div class="square"></div>
+      <div class="square"></div>
+      <div class="square"></div>
+      <div class="square"></div>
+      <div class="square"></div>
+      <div class="square"></div>
+      <div class="square"></div>
+      <div class="square"></div>
+      <div class="square"></div>
+    </div>
+    <script type="text/javascript" src="javascript.js"></script>
+    <footer>
+      <p id="copyright">2020 &copy; Sabyasachi Banerjee</p>
+      <ul class="list-inline">
+        <li class="list-inline-item footer-social">
+          <a
+            href="https://www.linkedin.com/in/sabyasachi-banerjee-009591192/"
+            target="_blank"
+            ><i class="fab fa-linkedin"></i
+          ></a>
+        </li>
+        <li class="list-inline-item footer-social">
+          <a href="https://github.com/Sabyasachi123618" target="_blank"
+            ><i class="fab fa-github"></i
+          ></a>
+        </li>
+        <li class="list-inline-item footer-social">
+          <a href="https://www.instagram.com/sabyasachimessi/" target="_blank"
+            ><i class="fab fa-instagram"></i
+          ></a>
+        </li>
+      </ul>
+    </footer>
+  </body>
 </html>
